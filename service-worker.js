@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/MuhammadHakami/profile.github.io/precache-manifest.61b312ab6d85ffe0be1b88acc5e05ed1.js"
+  "/MuhammadHakami/muhammadhakami.github.io/precache-manifest.74b76d20737f9dfac4ae5aab077f3daa.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/MuhammadHakami/profile.github.io/index.html", {
+workbox.routing.registerNavigationRoute("/MuhammadHakami/muhammadhakami.github.io/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
